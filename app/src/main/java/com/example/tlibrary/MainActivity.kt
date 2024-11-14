@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
                 binding.btn.setOnClickListener {
 
-                        Toast.Toast(this@MainActivity,"hello")
+                        Toast.showCustomToast(binding.rootView,"hello")
 
                 }
 
